@@ -3,6 +3,11 @@
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid whitesmoke;
+  /* position: sticky;
+  top: 0;
+  z-index: 110000;
+  background-color: white;
+  */
 }
 
 .header__left {
@@ -41,4 +46,8 @@
 .header__right {
   display: flex;
   padding-right: 20px;
+}
+
+.header__right .MuiAvatar-img {
+  cursor: pointer;
 }
